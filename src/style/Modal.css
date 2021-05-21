@@ -1,0 +1,26 @@
+@font-face {
+  font-family: iransanse;
+  src: url(../style/fonts/FontsFree-Net-ir_sans.ttf);
+}
+.modal {
+  font-family: iransanse;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.modal-content {
+  width: 500px;
+  background-color: #24333c;
+}
+.modal-body {
+  padding: 10px;
+  border-top: 1px solid #1ab188;
+  border-bottom: 1px solid #1ab188;
+}
